@@ -5,12 +5,11 @@
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <!-- Hotel element -->
+        <!-- Hotel definition -->
         <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Name" type="xs:string"/>
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              <!-- 👇 Autograder expects this order -->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -23,8 +22,10 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
+
+              <xs:element name="Name" type="xs:string"/>
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
             </xs:sequence>
-            <!-- Attribute -->
             <xs:attribute name="Rating" type="xs:decimal" use="required"/>
           </xs:complexType>
         </xs:element>

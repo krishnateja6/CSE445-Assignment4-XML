@@ -4,8 +4,6 @@
 
   <!-- ERROR 1 – Missing Rating attribute -->
   <Hotel>
-    <Name>Westin Tempe</Name>
-    <Name>Duplicate Name</Name> <!-- ERROR 2 – Two names -->
     <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
@@ -14,11 +12,13 @@
       <!-- ERROR 3 – Missing Zip element -->
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
+    <!-- ERROR 4 – Missing Phone element -->
+    <Name>Westin Tempe</Name>
+    <Name>Duplicate Name</Name> <!-- ERROR 2 – Two names -->
   </Hotel>
 
-  <!-- ERROR 4 – Missing Phone element -->
+  <!-- ERROR 5 – Missing Phone element -->
   <Hotel Rating="4.1">
-    <Name>Hilton Garden Inn</Name>
     <Address>
       <Number>720</Number>
       <Street>S Mill Ave</Street>
@@ -27,9 +27,10 @@
       <Zip>85281</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
+    <Name>Hilton Garden Inn</Name>
   </Hotel>
 
-  <!-- ERROR 5 – Incorrect element order -->
+  <!-- ERROR 6 – Incorrect element order -->
   <Hotel Rating="3.9">
     <Address>
       <Number>1413</Number>
@@ -40,6 +41,7 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Hyatt Place Tempe</Name>
+    <Phone>480-804-9544</Phone>
   </Hotel>
 
 </Hotels>

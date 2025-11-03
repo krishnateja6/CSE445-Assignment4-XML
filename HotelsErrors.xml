@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- ERROR 1 – Root element should be Hotels, not Hotel -->
+
+  <Hotel>
+    <Name>Westin Tempe</Name>
+    <Name>Duplicate Name</Name> <!-- ERROR 2 – Two names -->
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <!-- ERROR 3 – Missing Zip element -->
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hilton Garden Inn</Name>
+    <!-- ERROR 4 – Missing required attribute (Rating) -->
+    <!-- ERROR 5 – Missing Phone element -->
+    <Address>
+      <Number>720</Number>
+      <Street>S Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+</Hotel>

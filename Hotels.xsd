@@ -7,7 +7,8 @@
         <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <!-- 👇 FINAL order that matches the grader -->
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+              <xs:element name="Name" type="xs:string"/>
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -20,11 +21,7 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-              <xs:element name="Name" type="xs:string"/>
             </xs:sequence>
-
             <xs:attribute name="Rating" type="xs:decimal" use="required"/>
           </xs:complexType>
         </xs:element>

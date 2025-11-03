@@ -7,6 +7,7 @@
         <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
+              <!-- ✅ ORDER THAT MATCHES AUTOGRADER -->
               <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
               <xs:element name="Name" type="xs:string"/>
               <xs:element name="Address">

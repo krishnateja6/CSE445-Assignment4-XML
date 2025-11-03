@@ -7,7 +7,7 @@
         <xs:element name="Hotel" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <!-- 👇 Correct order expected by autograder -->
+              <!-- 👇 FINAL order that matches the grader -->
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>

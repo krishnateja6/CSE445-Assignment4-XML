@@ -3,6 +3,8 @@
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
   <Hotel Rating="4.2">
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
     <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
@@ -12,11 +14,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Westin Tempe</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
   </Hotel>
 
   <Hotel Rating="4.0">
+    <Phone>480-966-7000</Phone>
     <Address>
       <Number>720</Number>
       <Street>S Mill Ave</Street>
@@ -26,10 +27,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Hilton Garden Inn Tempe</Name>
-    <Phone>480-966-7000</Phone>
   </Hotel>
 
   <Hotel Rating="3.9">
+    <Phone>480-804-9544</Phone>
     <Address>
       <Number>1413</Number>
       <Street>W Rio Salado Pkwy</Street>
@@ -39,10 +40,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Hyatt Place Tempe</Name>
-    <Phone>480-804-9544</Phone>
   </Hotel>
 
   <Hotel Rating="4.5">
+    <Phone>602-273-7373</Phone>
     <Address>
       <Number>1101</Number>
       <Street>N 44th St</Street>
@@ -52,10 +53,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Marriott Phoenix Airport</Name>
-    <Phone>602-273-7373</Phone>
   </Hotel>
 
   <Hotel Rating="4.0">
+    <Phone>480-967-9431</Phone>
     <Address>
       <Number>225</Number>
       <Street>E Apache Blvd</Street>
@@ -65,10 +66,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Graduate Tempe</Name>
-    <Phone>480-967-9431</Phone>
   </Hotel>
 
   <Hotel Rating="4.1">
+    <Phone>480-966-2800</Phone>
     <Address>
       <Number>601</Number>
       <Street>S Ash Ave</Street>
@@ -78,10 +79,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Courtyard by Marriott Tempe</Name>
-    <Phone>480-966-2800</Phone>
   </Hotel>
 
   <Hotel Rating="3.8">
+    <Phone>480-345-9200</Phone>
     <Address>
       <Number>1625</Number>
       <Street>S 52nd St</Street>
@@ -91,10 +92,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Comfort Inn &amp; Suites Tempe</Name>
-    <Phone>480-345-9200</Phone>
   </Hotel>
 
   <Hotel Rating="4.3">
+    <Phone>480-245-4730</Phone>
     <Address>
       <Number>7</Number>
       <Street>E University Dr</Street>
@@ -104,10 +105,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Omni Tempe Hotel at ASU</Name>
-    <Phone>480-245-4730</Phone>
   </Hotel>
 
   <Hotel Rating="3.7">
+    <Phone>480-966-4300</Phone>
     <Address>
       <Number>601</Number>
       <Street>S Ash Ave</Street>
@@ -117,10 +118,10 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>Sonesta Select Tempe</Name>
-    <Phone>480-966-4300</Phone>
   </Hotel>
 
   <Hotel Rating="4.4">
+    <Phone>480-642-6140</Phone>
     <Address>
       <Number>100</Number>
       <Street>E Rio Salado Pkwy</Street>
@@ -130,7 +131,6 @@
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
     <Name>AC Hotel by Marriott Phoenix Tempe</Name>
-    <Phone>480-642-6140</Phone>
   </Hotel>
 
 </Hotels>

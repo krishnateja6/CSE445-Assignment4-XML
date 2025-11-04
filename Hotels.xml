@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://www.example.com/hotels"
-        xsi:schemaLocation="http://www.example.com/hotels Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Phone>480-968-8885</Phone>
@@ -115,7 +114,7 @@
       <Number>601</Number>
       <Street>S Ash Ave</Street>
       <City>Tempe</City>
-      <State>AZ</State> 
+      <State>AZ</State>
       <Zip>85281</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>

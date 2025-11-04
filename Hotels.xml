@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xmlns="http://www.example.com/hotels"
+        xsi:schemaLocation="http://www.example.com/hotels Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Phone>480-968-8885</Phone>
